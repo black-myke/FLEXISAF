@@ -1,0 +1,80 @@
+@import 'config';
+@import 'utilities';
+@import 'buttons';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $light-color;
+    font-family: $font-stack;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+// This shows how to use nesting in SCSS
+.showcase {
+    @include set-background($primary-color); //@include is used when you want to use a mixin in a code
+    height: 600px;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        li {
+            padding: 15px;
+        }
+
+        a {
+            color: set-text-color($primary-color);
+        }
+
+        a:hover {
+            color: $secondary-color;
+        }
+    }
+
+    a {
+        color: #fff;
+    }
+
+    // or showcase-content - this is because the parent class we are nesting is the same name. SO instead of writing "showcase" again, we can use the "$" as a shortcut
+    &-content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 50px;
+            line-height: 1.2;
+        }
+
+        p {
+            margin: 20px 0;
+            width: 80%;
+        }
+    }
+}
+
+

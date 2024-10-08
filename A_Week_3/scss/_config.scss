@@ -1,0 +1,25 @@
+// The underscore in the beginning of the file name tells SASS that it is going to be exported as a partial and it to be used for just partials when imported to the main SCSS file 
+// This file will only contains partials
+$light-color: #f4f4f4;
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #0e6c;
+$secondary-color: #455a64;
+
+// Example of using functions in SCSS
+// Setting text color based on background with functions
+
+@function set-text-color($color) {
+    @if(lightness($color) > 70) {
+        @return #333;
+    } @else {
+        @return #fff;
+    }
+}
+
+
+// Mixin right here
+// Setr background and text color
+@mixin set-background($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}
