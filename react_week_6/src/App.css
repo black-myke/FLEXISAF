@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Inter;
+  src: url(./Fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+  font-family: Lora;
+  src: url(./Fonts/Lora-Italic-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: #eee;
+  /* padding: 0 16px; */
+}
+
+header {
+  background-color: #00a000;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fffeee;
+  font-family: Lora, cursive;
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #bec2f5;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 16px;
+  width: fit-content;
+  margin: 20px 0;
+}
+
+.note h2 {
+  font-family: Lora, cursive;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.note p {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+/* STYLING FOR MENU-LIST */
+
+.stack-body {
+  padding: 10px;
+  background-color: #aaaccc;
+}
+
+
+.menu-list img {
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.menu-heading {
+  font-size: 2.5rem;  
+  font-family: Lora, cursive;
+  margin-bottom: 10px;
+}
+
+.menu-list h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-family: Inter, sans-serif;
+}
+
+.menu-list p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 10px;
+  font-family: Inter, sans-serif;
+}
+
+.menu-list p span {
+  color: green;
+  font-weight: 500;
+}
+
+.stackbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
