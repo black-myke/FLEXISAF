@@ -70,10 +70,12 @@ footer p {
 /* STYLING FOR MENU-LIST */
 
 .stack-body {
-  padding: 10px;
   background-color: #aaaccc;
 }
 
+.menu-list {
+  margin: 10px;
+}
 
 .menu-list img {
   height: 250px;

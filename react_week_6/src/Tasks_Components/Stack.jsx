@@ -21,6 +21,7 @@ const Stack = () => {
         
 
         <div className='stackbox'>
+            
             {dishes.map(createCardStack)}
 
         </div>
