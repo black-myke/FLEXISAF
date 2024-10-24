@@ -3,4 +3,4 @@ I practiced different terms within this single react app that is why I have diff
 But my deliverables for this week is inside the "Tasks_Components" folder. Which is what will be displayed on the web page.
 
 My task for this week is basically a menu list for a restaurant developed with React.
-Each Menu item is a reusable component that has its data stored in a Javascript.
+Each Menu item is a reusable component that has its data stored in a separate Javascript file which is imported as props into the component. 
