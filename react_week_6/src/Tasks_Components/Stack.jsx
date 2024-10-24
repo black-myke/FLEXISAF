@@ -17,7 +17,8 @@ function createCardStack(dishInfo) {
 const Stack = () => {
   return (
     <div className='stack-body'>
-        <h1 className='menu-heading'>Menu List</h1>
+        <h1>Seaside Delight</h1>
+        <h2 className='menu-heading'>Menu List</h2>
         
 
         <div className='stackbox'>
