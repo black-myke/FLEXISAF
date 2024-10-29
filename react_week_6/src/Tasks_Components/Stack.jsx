@@ -2,17 +2,6 @@ import React from 'react';
 import StackCard from './Stack-Card';
 import dishes from './dishes';
 
-function createCardStack(dishInfo) {
-    return (
-        <StackCard
-            key={dishInfo.id}
-            dishName={dishInfo.name}
-            dishImg={dishInfo.image}
-            price={dishInfo.price}
-            sideDish={dishInfo.dishStatus}
-        />
-    );
-}
 
 const Stack = () => {
   return (
@@ -23,7 +12,14 @@ const Stack = () => {
 
         <div className='stackbox'>
             
-            {dishes.map(createCardStack)}
+            {dishes.map((dishInfo) => 
+                <StackCard
+                    key={dishInfo.id}
+                    dishName={dishInfo.name}
+                    dishImg={dishInfo.image}
+                    price={dishInfo.price}
+                    sideDish={dishInfo.dishStatus}
+                />)}
 
         </div>
     

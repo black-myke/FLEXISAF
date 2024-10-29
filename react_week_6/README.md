@@ -4,3 +4,5 @@ But my deliverables for this week is inside the "Tasks_Components" folder. Which
 
 My task for this week is basically a menu list for a restaurant developed with React.
 Each Menu item is a reusable component that has its data stored in a Javascript.
+
+Link to live site: https://weeksixdeliverables.vercel.app

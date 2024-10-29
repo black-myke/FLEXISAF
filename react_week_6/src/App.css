@@ -13,15 +13,18 @@
   box-sizing: border-box;
 }
 
+.App {
+  background-color: #886600;
+  height: 100vh;
+}
 
 body {
   background: #eee;
-  /* padding: 0 16px; */
 }
 
+/* NOTEPAD STYLING HERE */
 header {
   background-color: #00a000;
-  margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
@@ -44,13 +47,20 @@ footer p {
   color: #bec2f5;
 }
 
+.note-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .note {
-  background: #fff;
+  background: #fffeee;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 16px;
-  width: fit-content;
-  margin: 20px 0;
+  width: 250px;
+  margin: 25px 15px;
+  border: 2px solid #000;
 }
 
 .note h2 {
@@ -132,7 +142,7 @@ footer p {
 
 
 
-
+/* STYLING FOR LOGIN FORM */
 
 
 
