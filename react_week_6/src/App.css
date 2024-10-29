@@ -98,6 +98,7 @@ footer p {
   box-shadow: 0px 0px 6px 2px rgba(117,117,117,0.75);
   -webkit-box-shadow: 0px 0px 6px 2px rgba(117,117,117,0.75);
   -moz-box-shadow: 0px 0px 6px 2px rgba(117,117,117,0.75);
+  border-radius: 8px;
 }
 
 .menu-list img {
@@ -105,6 +106,7 @@ footer p {
   width: 300px;
   object-fit: cover;
   margin-top: 20px;
+  border-radius: 5px 5px 0 0;
 }
 
 .menu-heading {
@@ -136,6 +138,35 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+button {
+  padding: 8px 20px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px 2px rgba(117,117,117,0.75);
+  -webkit-box-shadow: 0px 0px 6px 2px rgba(117,117,117,0.75);
+  -moz-box-shadow: 0px 0px 6px 2px rgba(117,117,117,0.75);
+  border: 0;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #f08307;
+  color: white;
+}
+
+button:hover {
+  background-color: #eb993d;
+  transition: 0.3s all ease-in-out;
+  color: #000;
+}
+
+button:active {
+  background-color: #fff;
+  color: #000;
+  transition: 0.1s all ease-in-out;
 }
 
 

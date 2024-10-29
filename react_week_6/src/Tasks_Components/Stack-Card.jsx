@@ -11,6 +11,7 @@ const Stack = (props) => {
         <h3>{props.dishName}</h3>
         <p>Price: <span>${props.price}</span></p>
         <p>Side Dish: {props.sideDish}</p>
+        <button>Place Order</button>
     </div>
   )
 }
