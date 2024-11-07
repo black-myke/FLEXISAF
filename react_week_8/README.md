@@ -5,3 +5,4 @@ I made use of react hook - useState() to take in an input and display that input
 
 The web app was developed with Button components, Input component, header, footer and the note card.
 
+Link to deployed site: https://dailyjournal-eta.vercel.app/
