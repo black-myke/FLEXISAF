@@ -32,10 +32,13 @@ const NoteBody = () => {
 
     return (
         <div>
+            <p className="mid-text">Record Every Beautiful Moment In Your Journal</p>
+
             <form onSubmit={addNote}>
                 <InputArea input={input} handleInput={handleInput} />  
                 <AddButton label="Add" onClick={addNote} />               
             </form>
+            
             <div className="note-body">
                 {note.map((notes, index) => (
                     <NoteCard
