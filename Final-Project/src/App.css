@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Inter;
+  src: url(./Fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+  font-family: Lora;
+  src: url(./Fonts/Lora-Italic-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #000000;
+}
+
+.header {
+  color: white;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #666666;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #bec2f5;
+  font-size: 18px;
+}
+
+/* .mid-text {
+  text-align: center;
+  font-family: Lora;
+  font-size: 23px;
+  margin: 20px 0 40px 0;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1px 2px 5px #e0470099;
+} */
+form {
+  width: 60%;
+  height: 200px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+.input-area {
+  background-color: #000000;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #1e1e1e;
+  box-shadow: 6px 8px 17px -2px #1e1e1e8c;
+  -webkit-box-shadow: 6px 8px 17px -2px #1e1e1e8c;
+  -moz-box-shadow: 6px 8px 17px -2px #1e1e1e8c;
+}
+
+.input-area input, .input-area textarea {
+  display: block;
+  margin:  auto;
+  width: 80%;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  font-family: monospace;
+}
+.input-area textarea {
+  height: 120px;
+  margin-top: 5px;
+}
+
+textarea::placeholder, input::placeholder {
+  color: #666666;
+  font-size: 18px;
+  font-family: monospace;
+  font-style: italic;
+}
+
+
+.delete-btn {
+  font-weight: 600px;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  border: 0;
+  cursor: pointer;
+  margin: 8px 5px 0 0;
+}
+
+.edit-btn {
+  font-weight: 600px;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  border: 0;
+  cursor: pointer;
+  margin: 8px 5px 0 0;
+}
+
+.note-body {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px 10px;
+}
+
+.note {
+  background: #0a0a0a;
+  border-radius: 7px;
+  padding: 16px;
+  /* width: 400px; */
+  margin: 25px 15px;
+  border: 0.5px solid #1e1e1e;
+}
+
+.note h2 {
+  font-family: Lora, cursive;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.note p {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #a3a3a3;
+}
+
+
